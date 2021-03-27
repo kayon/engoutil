@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+~$*
+demos/glyphterms/glyphterms
+demos/loading/loading
+demos/text/text
+demos/updater/updater
