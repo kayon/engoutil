@@ -1,4 +1,4 @@
-##engoutil
+## engoutil
 
 A toolkit of [EngoEngine/engo](https://github.com/EngoEngine/engo). Easy to create components.
 
@@ -11,14 +11,14 @@ A toolkit of [EngoEngine/engo](https://github.com/EngoEngine/engo). Easy to crea
 <img src="https://github.com/kayon/engoutil/raw/master/images/updater.gif" width="400" height="428" alt="updater">
 </p>
 
-####Canvas 
+#### Canvas 
 Use Canvas instead of common.RenderSystem
 
-####Component
+#### Component
 - LoadingComponent
 - FPSComponent
 
-####Shapes
+#### Shapes
 - Line
 - StippleLine
 - Rect
