@@ -6,7 +6,7 @@ import (
 
 	"github.com/EngoEngine/engo"
 
-	"engo/compon/assets"
+	"github.com/kayon/engoutil/assets"
 )
 
 const Font04b08 = "04b08.ttf"
