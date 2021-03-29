@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"image/color"
 
-	"engo/compon/demos/assets"
 	"github.com/EngoEngine/ecs"
 	"github.com/EngoEngine/engo"
 	"github.com/EngoEngine/engo/common"
@@ -36,7 +35,7 @@ func init() {
 		Size: 256,
 	})
 
-	if err = engo.Files.LoadReaderData(fontName, bytes.NewReader(assets.TimesNewRomanTTF)); err != nil {
+	if err = engo.Files.LoadReaderData(fontName, bytes.NewReader(TimesNewRomanTTF)); err != nil {
 		panic(fmt.Sprintf("unable to load %q! Error was: ", fontName) + err.Error())
 	}
 }
